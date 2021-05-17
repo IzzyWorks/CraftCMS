@@ -26,6 +26,24 @@ fieldLayouts:
             type: craft\fieldlayoutelements\EntryTitleField
             warning: null
             width: 100
+          -
+            fieldUid: 60ef5450-2f11-475c-9631-6a774929235c # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8d2bd38f-9333-4392-a17d-7ea96864fcbf # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 handle: home

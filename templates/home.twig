@@ -2,11 +2,13 @@
 
 {% block content %}
 
+  {% set image = entry.heroImage.one() %}
 
- <section class="hero" style="background-image: url('./static/images/photos/hero.jpg')">
+
+ <section class="hero" style="background-image: url('{{ image.url }}')">
       <div class="hero__content content-column">
 
-        <h1>Motorcycle Stories, Lifestyle, and Gear</h1>
+        <h1>{{ entry.heroTitle }}</h1>
         
       </div>
     </section>
